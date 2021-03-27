@@ -30,3 +30,11 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 Add bootstrap
 Run `npm install bootstrap --save` and then import it to the styles.css file.
 We could also imported it using the cdn inside index.html
+
+Display Employees List
+    create an employee (typescript) class : `ng g class employee`
+    create an employee component : `ng g c employee`
+    create an employee service : `ng g s employee`
+    HttpClientModule (in app.module) to call the Rest endpoint
+        & inject HttpClient in employee service
+        & inject EmployeeService in employee-list
