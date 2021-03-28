@@ -38,3 +38,5 @@ Display Employees List
     HttpClientModule (in app.module) to call the Rest endpoint
         & inject HttpClient in employee service
         & inject EmployeeService in employee-list
+Create Employee
+    In order to use ngModel directive, we have to import FormsModule in app.module
